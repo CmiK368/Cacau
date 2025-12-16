@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizados - Doce Cacau</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="nome-empresa">Doce Cacau</div>
+    </header>
+
+    <nav class="sidebar">
+        <a href="index.html" class="nav-button">Home</a>
+        <a href="historia.html" class="nav-button">Nossa História</a>
+        <a href="chocolates.html" class="nav-button">Chocolates</a>
+        <a href="promocoes.html" class="nav-button">Promoções de Natal</a>
+        <a href="bebidas.html" class="nav-button">Bebidas Quentes</a>
+        <a href="personalizados.html" class="nav-button active">Personalizados</a>
+        <a href="localizacao.html" class="nav-button">Localização</a>
+        <a href="contato.html" class="nav-button">Contato</a>
+    </nav>
+
+    <main class="content">
+        <h1>Pedidos Personalizados</h1>
+        <p>Crie o presente de chocolate dos seus sonhos! Perfeito para eventos corporativos, casamentos ou pedidos totalmente únicos.</p>
+        
+        <form class="form-personalizado" style="max-width: 400px; margin: 0 auto;">
+            <div style="margin-bottom: 15px; text-align: left;">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" required style="width: 100%; padding: 8px; box-sizing: border-box;">
+            </div>
+            <div style="margin-bottom: 15px; text-align: left;">
+                <label for="descricao">Detalhes do Pedido (sabor, formato, quantidade, prazo):</label>
+                <textarea id="descricao" name="descricao" rows="5" required style="width: 100%; padding: 8px; box-sizing: border-box;"></textarea>
+            </div>
+            <button type="submit" style="background-color: #8B0000; color: #FFD700; padding: 10px 20px; border: none; cursor: pointer; display: block; width: 100%;">Enviar Pedido</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Onde a magia do Natal se encontra com a doçura do cacau.</p>
+    </footer>
+</body>
+</html>
